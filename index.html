@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Website</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/weather.css">
+</head>
+<body>
+
+
+<div class="jumbotron jumbo">
+	<h2>Get Current Weather Information</h2>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center text-primary">Enter City Name:</h3>
+			<div id="error"></div>
+		</div>
+		<div class="row form-group form-inline" id="city">
+			<input type="text" name="cityname" id="cityname" class="form-control" placeholder="Enter city name"></input>
+			<button id="submitCity" class="btn btn-primary" onclick="getWeather(document.getElementById('cityname').value);">Search City</button>
+		</div>
+        <div id="weather-data">
+		
+	    </div>
+	</div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="assets/weather.js"></script>
+</body>
+</html>

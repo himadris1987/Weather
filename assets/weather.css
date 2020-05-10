@@ -1,0 +1,51 @@
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:gray;
+	margin: 0;
+	padding: 0;
+}
+
+.jumbo h2{
+	font-size: 2.2em;
+	font-weight: lighter;
+	text-align: center;
+}
+
+#city{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.jumbo{
+	margin-bottom: 0px;
+	background-color: darkblue;
+	color: gainsboro;
+}
+input[type='text'],#submitCity{
+	height: 1.8em;
+	font-size: 1.6em;
+	margin-bottom: 8%;
+}
+
+
+
+#weather-data{
+	min-width:200px;
+	background-color:  darkblue;
+	color:ghostwhite;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 1.6em;
+
+}
+
+#weather-data h3{
+	padding-top: 3%;
+}
+#weather-data p:last-child{
+	padding-bottom: 3%;
+}
+
+
+  
